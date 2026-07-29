@@ -6,6 +6,8 @@ on:
   # triggers on push to a branch
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
 
   #allows manual triggering from the actions tab
   workflow_dispatch:
